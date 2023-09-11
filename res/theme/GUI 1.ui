@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" layout="BoxLayout" boxLayoutAxis="Y" >
+  <component type="ImageViewer" name="ImageViewer" cloudDestinationProperty="ImageViewer" >
+    <custom name="image" type="com.codename1.ui.Image" value="minecraft.jpg" />
+  </component>
+  <component type="TextField" name="login" cloudBoundProperty="text" cloudDestinationProperty="login" text="" >
+  </component>
+  <component type="TextField" name="pwd" cloudBoundProperty="text" cloudDestinationProperty="pwd" text=" " >
+  </component>
+  <component type="Button" name="btnlogin" cloudDestinationProperty="Button" text="S'authentifier" >
+  </component>
+  <component type="Button" name="btnpwd" cloudDestinationProperty="Button1" text="cr&#xe9;e un compte" >
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" text="mot de passe oublier " >
+  </component>
+</component>
